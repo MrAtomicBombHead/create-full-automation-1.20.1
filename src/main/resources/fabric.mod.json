@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fullautomation",
+	"version": "${version}",
+	"name": "Create: Full Automation",
+	"description": "Adds recipes to make many of the create blocks and items that cannot currently be automated",
+	"authors": [
+		"MrAtomicBombHead"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.atomic.practice.FullAutomation"
+		],
+		"client": [
+			"net.atomic.practice.FullAutomationClient"
+		],
+		"fabric-datagen": [
+			"net.atomic.practice.FullAutomationDataGenerator"
+		]
+	},
+	"mixins": [
+		"fullautomation.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"create": "${create_version}"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
