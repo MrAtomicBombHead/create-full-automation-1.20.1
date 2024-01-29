@@ -15,13 +15,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.atomic.fullautomation.FullAutomation"
+			"net.donbarz.fullautomation.FullAutomation"
 		],
 		"client": [
-			"net.atomic.fullautomation.FullAutomationClient"
+			"net.donbarz.fullautomation.FullAutomationClient"
 		],
 		"fabric-datagen": [
-			"net.atomic.fullautomation.FullAutomationDataGenerator"
+			"net.donbarz.fullautomation.FullAutomationDataGenerator"
 		]
 	},
 	"mixins": [

@@ -1,4 +1,4 @@
-package net.atomic.fullautomation;
+package net.donbarz.fullautomation;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
