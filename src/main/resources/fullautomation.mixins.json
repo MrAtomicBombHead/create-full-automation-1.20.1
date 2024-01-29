@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.atomic.practice.mixin",
+	"package": "net.atomic.fullautomation.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

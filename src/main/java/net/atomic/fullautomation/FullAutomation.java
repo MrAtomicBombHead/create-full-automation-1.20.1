@@ -1,4 +1,4 @@
-package net.atomic.practice;
+package net.atomic.fullautomation;
 
 import net.fabricmc.api.ModInitializer;
 
