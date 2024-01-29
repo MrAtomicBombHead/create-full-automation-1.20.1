@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(MinecraftServer.class)
 public class ExampleMixin {
-	@Inject(at = @At("HEAD"), method = "loadLevel")
+	@Inject(at = @At("HEAD"), method = "loadLevel") //if error try "loadWorld"
 	private void init(CallbackInfo info) {
 		// This code is injected into the start of MinecraftServer.loadWorld()V
 	}
