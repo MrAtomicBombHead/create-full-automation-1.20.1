@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "createmoreautomation:inkbottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmoreautomation:glowinkbottle"
+    }
+  ]
+}
