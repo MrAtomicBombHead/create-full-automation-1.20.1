@@ -1,8 +1,12 @@
 package net.donbarz.createmoreautomation;
 
+import net.donbarz.createmoreautomation.ThrowEntity.InkBottleItem;
+import net.donbarz.createmoreautomation.ThrowEntity.ModProjectiles;
 import net.donbarz.createmoreautomation.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +19,8 @@ public class CreateMoreAutomation implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		InkBottleItem.registerThrowItem();
+		EntityRendererRegistry.register(ModProjectiles.INK_BOTTLE_ENTITY_TYPE, FlyingItemEntityRenderer::new);
 
 	}
 }

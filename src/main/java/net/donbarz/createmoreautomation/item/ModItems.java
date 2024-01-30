@@ -12,15 +12,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item INKBOTTLE = registerItem("inkbottle", new Item(new FabricItemSettings()));
     public static final Item GLOWINKBOTTLE = registerItem("glowinkbottle", new Item(new FabricItemSettings()));
 
     private static void addItemstoIngredientsCreativeTab(FabricItemGroupEntries entries){
-        entries.add(INKBOTTLE);
+        //entries.add(INKBOTTLE);
         entries.add(GLOWINKBOTTLE);
     }
 
-    private static Item registerItem(String name, Item item){
+    public static Item registerItem(String name, Item item){
 
         return Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, name), item);
     }
@@ -31,3 +30,4 @@ public class ModItems {
 
     }
 }
+
