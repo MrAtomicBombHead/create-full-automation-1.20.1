@@ -1,3 +1,5 @@
+//Currently does not override existing recipe
+
 {
   "type": "create:crushing",
   "ingredients": [
