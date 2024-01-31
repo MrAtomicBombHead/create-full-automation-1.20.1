@@ -18,11 +18,11 @@ public class InkBottleEntity extends ThrownItemEntity {
     }
 
     private InkBottleEntity(World world, LivingEntity owner) {
-        super(ModProjectiles.INK_BOTTLE_ENTITY_TYPE, owner, world); // null will be changed later
+        super(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, owner, world); // null will be changed later
     }
 
     private InkBottleEntity(World world, double x, double y, double z) {
-        super(ModProjectiles.INK_BOTTLE_ENTITY_TYPE, x, y, z, world); // null will be changed later
+        super(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, x, y, z, world); // null will be changed later
     }
 
     @Override
@@ -37,8 +37,9 @@ public class InkBottleEntity extends ThrownItemEntity {
         if (entity instanceof LivingEntity livingEntity) { // checks if entity is an instance of LivingEntity (meaning it is not a boat or minecart)
             livingEntity.addStatusEffect((new StatusEffectInstance(StatusEffects.BLINDNESS, 20 * 10, 0))); // applies a status effect
             livingEntity.playSound(SoundEvents.BLOCK_HONEY_BLOCK_BREAK, 2F, 1F); // plays a sound for the entity hit only
-            //getWorld().playSound(SoundEvents.BLOCK_GLASS_BREAK, 2F, 1F); // plays a sound for the entity hit only
+            playSound(SoundEvents.BLOCK_GLASS_BREAK, 2F, 1F); // plays a sound for the entity hit only
         }
+        this.kill();
     }
 
     protected void onCollision(HitResult hitResult) { // called on collision with a block

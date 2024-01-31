@@ -1,7 +1,8 @@
 package net.donbarz.createmoreautomation;
 
+import net.donbarz.createmoreautomation.ThrowEntity.GlowInkBottleItem;
 import net.donbarz.createmoreautomation.ThrowEntity.InkBottleItem;
-import net.donbarz.createmoreautomation.ThrowEntity.ModProjectiles;
+import net.donbarz.createmoreautomation.ThrowEntity.InkBottleEntityType;
 import net.donbarz.createmoreautomation.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,7 +21,8 @@ public class CreateMoreAutomation implements ModInitializer {
 
 		ModItems.registerModItems();
 		InkBottleItem.registerThrowItem();
-		EntityRendererRegistry.register(ModProjectiles.INK_BOTTLE_ENTITY_TYPE, FlyingItemEntityRenderer::new);
+		GlowInkBottleItem.registerThrowItem();
+		EntityRendererRegistry.register(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, FlyingItemEntityRenderer::new);
 
 	}
 }
