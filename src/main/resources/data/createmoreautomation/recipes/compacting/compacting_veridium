@@ -1,0 +1,40 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "create:quartz"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    },
+    {
+      "item": "minecraft:copper_nugget"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:veridium"
+    }
+  ]
+}
