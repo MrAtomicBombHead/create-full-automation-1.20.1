@@ -5,15 +5,16 @@
       "item": "minecraft:cobblestone"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "create:zinc_nugget"
     },
     {
-      "item": "minecraft:quartz"
+      "item": "create:zinc_nugget"
     },
     {
-      "amount": 2025,
-      "fluid": "minecraft:lava",
-      "nbt": {}
+      "item": "create:zinc_nugget"
+    },
+    {
+      "item": "create:zinc_nugget"
     }
   ],
   "results": [
