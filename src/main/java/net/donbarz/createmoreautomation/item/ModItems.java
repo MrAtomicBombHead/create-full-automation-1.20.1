@@ -12,11 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item GLOWINKBOTTLE = registerItem("glowinkbottle", new Item(new FabricItemSettings()));
+    //public static final Item exampleItem = registerItem("example, new Item(new FabricItemSettings()));
 
     private static void addItemstoIngredientsCreativeTab(FabricItemGroupEntries entries){
-        //entries.add(INKBOTTLE);
-        entries.add(GLOWINKBOTTLE);
+        //entries.add(exampleItem);
     }
 
     public static Item registerItem(String name, Item item){
