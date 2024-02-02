@@ -38,7 +38,7 @@ public class InkBottleItem extends Item {
         if (!world.isClient) {
             InkBottleEntity inkBottleEntity = new InkBottleEntity(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, world);
             inkBottleEntity.setItem(itemStack);
-            inkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F, 0F);
+            inkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
             inkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());
 
             world.spawnEntity(inkBottleEntity); // spawns entity

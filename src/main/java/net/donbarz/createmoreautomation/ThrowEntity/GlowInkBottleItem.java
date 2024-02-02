@@ -38,7 +38,7 @@ public class GlowInkBottleItem extends Item {
         if (!world.isClient) {
             GlowInkBottleEntity GlowInkBottleEntity = new GlowInkBottleEntity(GlowInkBottleEntityType.GLOW_INK_BOTTLE_ENTITY_TYPE, world);
             GlowInkBottleEntity.setItem(itemStack);
-            GlowInkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F, 0F);
+            GlowInkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
             GlowInkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());
 
             world.spawnEntity(GlowInkBottleEntity); // spawns entity
