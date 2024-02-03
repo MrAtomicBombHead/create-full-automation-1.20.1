@@ -3,7 +3,7 @@
 	"id": "createmoreautomation",
 	"version": "${version}",
 	"name": "Create: More Automation",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Create: More Automation is a create mod addon focused around adding balanced and vanilly-styled automation to many decorative blocks that weren't fully automatable before!",
 	"authors": [
 		"DonBarz",
 		"MrAtomicBombHead"
