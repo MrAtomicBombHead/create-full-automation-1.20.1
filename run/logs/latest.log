@@ -1,5 +1,5 @@
-[02:42:37] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.6
-[02:42:38] [main/INFO] (FabricLoader) Loading 77 mods:
+[01:14:30] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.6
+[01:14:30] [main/INFO] (FabricLoader) Loading 91 mods:
 	- create 0.5.1-d-build.1161+mc1.20.1
 	- createmoreautomation 1.0.0-1.20.1
 	- dripstone_fluid_lib 3.0.2
@@ -9,6 +9,8 @@
 	- fabric-biome-api-v1 13.0.12+215bbe9677
 	- fabric-block-api-v1 1.0.10+92a0d36777
 	- fabric-block-view-api-v2 1.0.0+92a0d36777
+	- fabric-blockrenderlayer-v1 1.1.40+b3afc78b77
+	- fabric-client-tags-api-v1 1.1.1+97bb207577
 	- fabric-command-api-v1 1.2.33+f71b366f77
 	- fabric-command-api-v2 2.2.12+b3afc78b77
 	- fabric-commands-v0 0.2.50+df3654b377
@@ -25,25 +27,37 @@
 	- fabric-gametest-api-v1 1.2.12+b3afc78b77
 	- fabric-item-api-v1 2.1.27+b3afc78b77
 	- fabric-item-group-api-v1 4.0.11+d7b148e077
+	- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	- fabric-keybindings-v0 0.2.34+df3654b377
 	- fabric-lifecycle-events-v1 2.2.21+b3afc78b77
 	- fabric-loot-api-v2 1.2.0+96dfa95977
 	- fabric-loot-tables-v1 1.1.44+9e7660c677
 	- fabric-message-api-v1 5.1.8+d7b148e077
 	- fabric-mining-level-api-v1 2.1.49+b3afc78b77
+	- fabric-model-loading-api-v1 1.0.2+709a987177
+	- fabric-models-v0 0.4.1+9386d8a777
 	- fabric-networking-api-v1 1.3.10+eeb8eb3677
 	- fabric-networking-v0 0.3.50+df3654b377
 	- fabric-object-builder-api-v1 11.1.2+4ee0bc6077
 	- fabric-particles-v1 1.1.1+201a23a077
 	- fabric-recipe-api-v1 1.0.20+b3afc78b77
 	- fabric-registry-sync-v0 2.3.2+4df89eb277
+	- fabric-renderer-api-v1 3.2.0+39a511ba77
+	- fabric-renderer-indigo 1.5.0+39a511ba77
+	- fabric-renderer-registries-v1 3.2.45+df3654b377
 	- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
 	- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	- fabric-rendering-v0 1.1.48+df3654b377
+	- fabric-rendering-v1 3.0.7+b3afc78b77
 	- fabric-resource-conditions-api-v1 2.3.7+29de845d77
 	- fabric-resource-loader-v0 0.11.9+132c48c177
+	- fabric-screen-api-v1 2.0.7+b3afc78b77
 	- fabric-screen-handler-api-v1 1.3.29+b3afc78b77
+	- fabric-sound-api-v1 1.0.12+b3afc78b77
 	- fabric-transfer-api-v1 3.3.3+c81d263177
 	- fabric-transitive-access-wideners-v1 4.3.0+6c31357e77
 	- fabricloader 0.15.6
+	- flywheel 0.6.9-1
 	- forgeconfigapiport 8.0.0
 	- java 17
 	- jei 15.2.0.27
@@ -77,59 +91,136 @@
 	- porting_lib_utility 2.1.1127+1.20
 	- reach-entity-attributes 2.4.0
 	- registrate-fabric 1.3.62-MC1.20.1
-[02:42:38] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[02:42:38] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[02:42:38] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[02:42:39] [main/WARN] (FabricLoader/Mixin) Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
-[02:42:39] [main/WARN] (FabricLoader/Mixin) @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
-[02:42:39] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/client/render/block/entity/BlockEntityRendererFactories (java.lang.RuntimeException: Cannot load class net.minecraft.client.render.block.entity.BlockEntityRendererFactories in environment type SERVER)
-[02:42:39] [main/WARN] (FabricLoader/Mixin) @Mixin target net.minecraft.client.render.block.entity.BlockEntityRendererFactories was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
-[02:42:39] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[02:42:46] [main/INFO] (createmoreautomation) Registering Items for createmoreautomation
-[02:42:46] [main/INFO] (MM) Definitely not up to no good
-[02:42:48] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:42:50] [main/INFO] (Minecraft) Loaded 22 recipes
-[02:42:50] [main/INFO] (Minecraft) Loaded 2260 advancements
-[02:42:51] [main/INFO] (BiomeModificationImpl) Applied 111 biome modifications to 58 of 64 new biomes in 13.50 ms
-[02:42:51] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.1
-[02:42:51] [Server thread/INFO] (Minecraft) Loading properties
-[02:42:51] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
-[02:42:51] [Server thread/INFO] (Minecraft) Generating keypair
-[02:42:51] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
-[02:42:51] [Server thread/INFO] (Minecraft) Using default channel type
-[02:42:51] [Server thread/INFO] (Minecraft) Preparing level "world"
-[02:42:54] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[02:42:54] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 0%
-[02:42:54] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
-[02:42:55] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
-[02:42:55] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 1%
-[02:42:56] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 2%
-[02:42:56] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 4%
-[02:42:57] [Worker-Main-9/INFO] (Minecraft) Preparing spawn area: 6%
-[02:42:57] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 9%
-[02:42:58] [Worker-Main-9/INFO] (Minecraft) Preparing spawn area: 12%
-[02:42:58] [Worker-Main-8/INFO] (Minecraft) Preparing spawn area: 15%
-[02:42:59] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 20%
-[02:42:59] [Worker-Main-8/INFO] (Minecraft) Preparing spawn area: 23%
-[02:43:00] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 30%
-[02:43:00] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 33%
-[02:43:01] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 36%
-[02:43:01] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 42%
-[02:43:02] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 46%
-[02:43:02] [Worker-Main-9/INFO] (Minecraft) Preparing spawn area: 50%
-[02:43:03] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 55%
-[02:43:03] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 60%
-[02:43:04] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 67%
-[02:43:04] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 71%
-[02:43:05] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 76%
-[02:43:05] [Worker-Main-9/INFO] (Minecraft) Preparing spawn area: 83%
-[02:43:06] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 85%
-[02:43:06] [Worker-Main-9/INFO] (Minecraft) Preparing spawn area: 92%
-[02:43:07] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 99%
-[02:43:07] [Server thread/INFO] (Minecraft) Time elapsed: 13027 ms
-[02:43:07] [Server thread/INFO] (Minecraft) Done (15.585s)! For help, type "help"
-[02:56:30] [User Authenticator #1/INFO] (Minecraft) UUID of player DonBarz is d1a9bbdc-becf-4a4e-a12a-3175bf3b1d76
-[02:56:30] [Server thread/INFO] (Minecraft) DonBarz[/127.0.0.1:52163] logged in with entity id 353 at (26.5, 91.0, 9.5)
-[02:56:30] [Server thread/INFO] (Minecraft) DonBarz joined the game
-[02:57:52] [Server thread/INFO] (Minecraft) DonBarz lost connection: Disconnected
-[02:57:52] [Server thread/INFO] (Minecraft) DonBarz left the game
+[01:14:30] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[01:14:31] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[01:14:31] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[01:14:31] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[01:14:31] [main/WARN] (FabricLoader/Mixin) Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[01:14:31] [main/WARN] (FabricLoader/Mixin) @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[01:14:31] [main/WARN] (FabricLoader/Mixin) Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder)
+[01:14:31] [main/WARN] (FabricLoader/Mixin) @Mixin target me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin from mod flywheel
+[01:14:32] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[01:14:37] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 137 milliseconds
+[01:14:39] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:14:39] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:733) ~[minecraft-merged-280e29ca61-1.20.1-loom.mappings.1_20_1.layered+hash.540040060-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:442) ~[minecraft-merged-280e29ca61-1.20.1-loom.mappings.1_20_1.layered+hash.540040060-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-merged-280e29ca61-1.20.1-loom.mappings.1_20_1.layered+hash.540040060-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[01:14:39] [Render thread/INFO] (Minecraft) Setting user: Player589
+[01:14:40] [Render thread/INFO] (MM) Definitely not up to no good
+[01:14:40] [Render thread/INFO] (createmoreautomation) Registering Items for createmoreautomation
+[01:14:43] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[01:14:43] [Render thread/INFO] (PluginCaller) Sending ConfigManager...
+[01:14:43] [Render thread/INFO] (PluginCaller) Sending ConfigManager took 2.062 ms
+[01:14:43] [Render thread/INFO] (Backend) No shaders mod detected.
+[01:14:43] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[01:14:44] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-message-api-v1, fabric-block-api-v1, fabric-containers-v0, fabric-api-lookup-api-v1, fabric-key-binding-api-v1, fabric-convention-tags-v1, fabric-dimensions-v1, fabric-transfer-api-v1, porting_lib_gametest, fabric-blockrenderlayer-v1, fabric-mining-level-api-v1, registrate-fabric, fabric-data-generation-api-v1, porting_lib_transfer, porting_lib_core, fabric-game-rule-api-v1, fabric-rendering-data-attachment-v1, fabric-transitive-access-wideners-v1, fabric-screen-api-v1, fabric-particles-v1, fabric-lifecycle-events-v1, fabric-keybindings-v0, fabric-rendering-v0, fabric-gametest-api-v1, porting_lib_mixin_extensions, fabric-resource-conditions-api-v1, porting_lib_obj_loader, fabric-item-api-v1, fabric-screen-handler-api-v1, fabric-entity-events-v1, mm, porting_lib_model_materials, porting_lib_extensions, createmoreautomation, create, forgeconfigapiport, porting_lib_attributes, fabric-commands-v0, porting_lib_tool_actions, porting_lib_utility, fabric-command-api-v1, fabric-renderer-indigo, porting_lib_fake_players, fabric-resource-loader-v0, porting_lib_base, milk, fabric-networking-api-v1, porting_lib_common, fabric-object-builder-api-v1, porting_lib_entity, fabric-biome-api-v1, fabric-loot-tables-v1, fabric-crash-report-info-v1, porting_lib_model_loader, porting_lib_networking, dripstone_fluid_lib, jei, fabric-api-base, porting_lib_brewing, fabric-command-api-v2, reach-entity-attributes, fabric-registry-sync-v0, fabric-renderer-registries-v1, fabric-rendering-v1, fabric-item-group-api-v1, fabric-model-loading-api-v1, fabric-sound-api-v1, fabric-api, porting_lib_accessors, porting_lib_lazy_registration, fabric-renderer-api-v1, fabric-loot-api-v2, fabric-models-v0, flywheel, fabric-networking-v0, fabric-block-view-api-v2, fabric-recipe-api-v1, fabric-events-interaction-v0, porting_lib_tags, porting_lib_models, fabric-rendering-fluids-v1, porting_lib_client_events, porting_lib_model_generators, fabricloader, fabric-events-lifecycle-v0, fabric-content-registries-v0, porting_lib_data, fabric-client-tags-api-v1)
+[01:14:44] [Worker-Main-5/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[01:14:45] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[01:14:47] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[01:14:47] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01:14:47] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Lautsprecher (Realtek(R) Audio)
+[01:14:47] [Render thread/INFO] (Minecraft) Sound engine started
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:14:47] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01:14:47] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01:14:48] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[01:14:48] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01:14:48] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01:14:48] [Render thread/INFO] (Minecraft) Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[01:14:48] [Render thread/INFO] (Backend) Loaded all shader sources.
+[01:15:03] [Render thread/INFO] (Minecraft) Loaded 22 recipes
+[01:15:03] [Render thread/INFO] (Minecraft) Loaded 2260 advancements
+[01:15:03] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[01:15:03] [Render thread/INFO] (JeiStarter) Stopping JEI
+[01:15:03] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
+[01:15:03] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[01:15:03] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 244.6 ?s
+[01:15:04] [Render thread/INFO] (BiomeModificationImpl) Applied 7 biome modifications to 6 of 64 new biomes in 10.84 ms
+[01:15:04] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[01:15:04] [Server thread/INFO] (Minecraft) Generating keypair
+[01:15:04] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[01:15:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:15:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:15:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:15:05] [Render thread/INFO] (Minecraft) Preparing spawn area: 10%
+[01:15:06] [Render thread/INFO] (Minecraft) Time elapsed: 1863 ms
+[01:15:06] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[01:15:06] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[01:15:07] [Server thread/INFO] (Minecraft) Player589[local:E:9026bde5] logged in with entity id 1 at (-135.68630052649343, -58.21475388244601, 136.22976437419237)
+[01:15:07] [Server thread/INFO] (Minecraft) Player589 joined the game
+[01:15:07] [Render thread/INFO] (BatchExecutor) Started 6 worker threads
+[01:15:07] [Render thread/INFO] (LoggedTimer) Starting JEI...
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering item subtypes...
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering item subtypes took 4.894 ms
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering fluid subtypes...
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering fluid subtypes took 3.858 ms
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering ingredients...
+[01:15:07] [Render thread/INFO] (PluginCallerTimerRunnable) Registering ingredients: jei:minecraft took 65.33 milliseconds
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering ingredients took 65.88 ms
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering categories...
+[01:15:07] [Render thread/INFO] (PluginCallerTimerRunnable) Registering categories: jei:minecraft took 29.47 milliseconds
+[01:15:07] [Render thread/INFO] (PluginCallerTimerRunnable) Registering categories: create:jei_plugin took 59.34 milliseconds
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering categories took 91.50 ms
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions...
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions took 3.620 ms
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering recipe catalysts...
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering recipe catalysts took 2.322 ms
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering advanced plugins...
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering advanced plugins took 290.1 ?s
+[01:15:07] [Render thread/INFO] (LoggedTimer) Building recipe registry...
+[01:15:07] [Render thread/INFO] (LoggedTimer) Building recipe registry took 14.85 ms
+[01:15:07] [Render thread/INFO] (PluginCaller) Registering recipes...
+[01:15:08] [Render thread/INFO] (PluginCallerTimerRunnable) Registering recipes: jei:minecraft took 190.8 milliseconds
+[01:15:08] [Render thread/INFO] (IngredientManager) Ingredients are being removed at runtime: 4 mezz.jei.api.fabric.ingredients.fluids.IJeiFluidIngredient
+[01:15:08] [Render thread/INFO] (PluginCallerTimerRunnable) Registering recipes: create:jei_plugin took 120.2 milliseconds
+[01:15:08] [Render thread/INFO] (PluginCaller) Registering recipes took 311.7 ms
+[01:15:08] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers...
+[01:15:08] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers took 3.751 ms
+[01:15:08] [Render thread/INFO] (LoggedTimer) Building runtime...
+[01:15:08] [Render thread/INFO] (PluginCaller) Registering gui handlers...
+[01:15:08] [Render thread/INFO] (PluginCaller) Registering gui handlers took 13.02 ms
+[01:15:08] [Render thread/INFO] (PluginCaller) Registering Runtime...
+[01:15:08] [Render thread/INFO] (JeiGuiStarter) Starting JEI GUI
+[01:15:08] [Render thread/INFO] (LoggedTimer) Building ingredient list...
+[01:15:08] [Render thread/INFO] (LoggedTimer) Building ingredient list took 3.439 ms
+[01:15:08] [Render thread/INFO] (LoggedTimer) Building ingredient filter...
+[01:15:08] [Render thread/INFO] (IngredientFilter) Adding 1983 ingredients
+[01:15:08] [Render thread/INFO] (IngredientFilter) Added 1983 ingredients
+[01:15:08] [Render thread/INFO] (LoggedTimer) Building ingredient filter took 167.1 ms
+[01:15:08] [Render thread/INFO] (PluginCallerTimerRunnable) Registering Runtime: jei:fabric_gui took 271.9 milliseconds
+[01:15:08] [Render thread/INFO] (PluginCaller) Registering Runtime took 272.4 ms
+[01:15:08] [Render thread/INFO] (LoggedTimer) Building runtime took 309.0 ms
+[01:15:08] [Render thread/INFO] (PluginCaller) Sending Runtime...
+[01:15:08] [Render thread/INFO] (PluginCaller) Sending Runtime took 221.3 ?s
+[01:15:08] [Render thread/INFO] (LoggedTimer) Starting JEI took 884.2 ms
+[01:15:08] [Render thread/INFO] (Minecraft) Loaded 66 advancements
+[01:15:24] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[01:15:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:overworld
+[01:15:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_end
+[01:15:24] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_nether
+[01:15:25] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[01:15:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:overworld
+[01:15:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_end
+[01:15:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_nether
