@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: loom_mappings_1_20_1_layered_hash_1176321953_v2.net.fabricmc.fabric-api:fabric-block-view-api-v2:1.0.0+92a0d36777" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_1176321953_v2/net/fabricmc/fabric-api/fabric-block-view-api-v2/1.0.0+92a0d36777/fabric-block-view-api-v2-1.0.0+92a0d36777.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_1176321953_v2/net/fabricmc/fabric-api/fabric-block-view-api-v2/1.0.0+92a0d36777/fabric-block-view-api-v2-1.0.0+92a0d36777-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
