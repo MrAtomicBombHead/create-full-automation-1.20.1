@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "createmoreautomation:item/inkbottle"
+    "layer0": "createmoreautomation:item/ink_bottle"
   }
 }

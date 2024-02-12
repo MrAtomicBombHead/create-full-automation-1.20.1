@@ -15,10 +15,14 @@ public class ModItems {
     //public static final Item exampleItem = registerItem("example", new Item(new FabricItemSettings()));
     public static final Item COSMICSOOT = registerItem("cosmic_soot", new Item(new FabricItemSettings()));
     public static final Item VOIDGOO = registerItem("void_goo", new Item(new FabricItemSettings()));
+    public static final Item INKBOTTLE = registerItem("ink_bottle", new Item(new FabricItemSettings()));
+    public static final Item GLOWINKBOTTLE = registerItem("glow_ink_bottle", new Item(new FabricItemSettings()));
     private static void addItemstoIngredientsCreativeTab(FabricItemGroupEntries entries){
         //entries.add(exampleItem);
         entries.add(COSMICSOOT);
         entries.add(VOIDGOO);
+        entries.add(INKBOTTLE);
+        entries.add(GLOWINKBOTTLE);
     }
 
     public static Item registerItem(String name, Item item){

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "createmoreautomation:item/voidgoo"
+    "layer0": "createmoreautomation:item/void_goo"
   }
 }
