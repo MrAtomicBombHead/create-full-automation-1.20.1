@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88d6ac0-4a59-4b55-9d54-ee5889c5c67a" name="Changes" comment="Moved registry to (Glow)InkBottleEntityType.java">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/crushing/crushing_cosmicsoot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/crushing/crushing_endstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/cutting/cutting_pointeddripstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/cutting/cutting_dripstone.json" afterDir="false" />
+    <list default="true" id="c88d6ac0-4a59-4b55-9d54-ee5889c5c67a" name="Changes" comment="renamed some stuff">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,18 +69,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Minecraft Client.executor": "Run",
-    "Application.Minecraft Server.executor": "Run",
-    "Gradle.Build mod.executor": "Run",
-    "Gradle.mod [runClient].executor": "Run",
-    "Gradle.mod [runServer].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build mod.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mod [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.mod [runServer].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.mod [runClient]">
     <configuration name="mod [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -245,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708784635915</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="renamed some stuff">
+      <option name="closed" value="true" />
+      <created>1708784816783</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708784816783</updated>
+    </task>
+    <task id="LOCAL-00014" summary="renamed some stuff">
+      <option name="closed" value="true" />
+      <created>1708784829687</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708784829687</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +287,7 @@
     <MESSAGE value="Fixed particles (now works on server) and removed target box" />
     <MESSAGE value="Added glow ink bottle projectile" />
     <MESSAGE value="Moved registry to (Glow)InkBottleEntityType.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved registry to (Glow)InkBottleEntityType.java" />
+    <MESSAGE value="renamed some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed some stuff" />
   </component>
 </project>
