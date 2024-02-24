@@ -44,7 +44,7 @@ biomeBlendRadius:2
 renderClouds:"true"
 resourcePacks:["fabric"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:localhost
 lang:en_us
 soundDevice:""
 chatVisibility:0
@@ -72,10 +72,10 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -91,8 +91,8 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.r
-key_key.sprint:key.keyboard.left.shift
+key_key.sneak:key.keyboard.left.shift
+key_key.sprint:key.keyboard.r
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t

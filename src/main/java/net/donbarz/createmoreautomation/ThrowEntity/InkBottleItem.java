@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 
 public class InkBottleItem extends Item {
 
-    public static final Item INKBOTTLE = registerItem("inkbottle",new InkBottleItem(new Item.Settings().maxCount(16)));
+    public static final Item INKBOTTLE = registerItem("ink_bottle",new InkBottleItem(new Item.Settings().maxCount(16)));
 
     public static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, name), item);
@@ -36,7 +36,7 @@ public class InkBottleItem extends Item {
 		Optionally, you can add a cooldown to your item's right-click use, similar to Ender Pearls.
 		*/
         if (!world.isClient) {
-            InkBottleEntity inkBottleEntity = new InkBottleEntity(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, world);
+            InkBottleEntity inkBottleEntity = new InkBottleEntity(CreateMoreAutomation.INK_BOTTLE_ENTITY_TYPE, world);
             inkBottleEntity.setItem(itemStack);
             inkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
             inkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());
@@ -57,7 +57,7 @@ public class InkBottleItem extends Item {
     }
 
     public void onInitialize() {
-        Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, "inkbottle"), new Item(new FabricItemSettings()));
+        Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, "ink_bottle"), new Item(new FabricItemSettings()));
     }
     public static void registerThrowItem() {
 
