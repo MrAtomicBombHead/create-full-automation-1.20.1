@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88d6ac0-4a59-4b55-9d54-ee5889c5c67a" name="Changes" comment="Added glow ink bottle projectile">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/CreateMoreAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/CreateMoreAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/CreateMoreAutomationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/CreateMoreAutomationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/ThrowEntity/InkBottleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/ThrowEntity/InkBottleEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/ThrowEntity/InkBottleEntityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/ThrowEntity/InkBottleEntityType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/ThrowEntity/InkBottleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/donbarz/createmoreautomation/ThrowEntity/InkBottleItem.java" afterDir="false" />
+    <list default="true" id="c88d6ac0-4a59-4b55-9d54-ee5889c5c67a" name="Changes" comment="Moved registry to (Glow)InkBottleEntityType.java">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/crushing/crushing_cosmicsoot.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/crushing/crushing_endstone.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/cutting/cutting_pointeddripstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/createmoreautomation/recipes/cutting/cutting_dripstone.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708784103537</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Moved registry to (Glow)InkBottleEntityType.java">
+      <option name="closed" value="true" />
+      <created>1708784635915</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708784635915</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +271,7 @@
     <MESSAGE value="fixed name and removed invisibility from ink" />
     <MESSAGE value="Fixed particles (now works on server) and removed target box" />
     <MESSAGE value="Added glow ink bottle projectile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added glow ink bottle projectile" />
+    <MESSAGE value="Moved registry to (Glow)InkBottleEntityType.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved registry to (Glow)InkBottleEntityType.java" />
   </component>
 </project>
