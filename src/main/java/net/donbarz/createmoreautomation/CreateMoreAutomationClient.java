@@ -11,5 +11,8 @@ public class CreateMoreAutomationClient implements ClientModInitializer {
         //EntityRendererRegistry.register(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, FlyingItemEntityRenderer::new);
         EntityRendererRegistry.register(CreateMoreAutomation.INK_BOTTLE_ENTITY_TYPE, (context) ->
                 new FlyingItemEntityRenderer(context));
+
+        EntityRendererRegistry.register(CreateMoreAutomation.GLOW_INK_BOTTLE_ENTITY_TYPE, (context) ->
+                new FlyingItemEntityRenderer(context));
     }
 }
