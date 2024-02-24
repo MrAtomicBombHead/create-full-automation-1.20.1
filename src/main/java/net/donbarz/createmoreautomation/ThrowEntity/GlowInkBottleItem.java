@@ -36,7 +36,7 @@ public class GlowInkBottleItem extends Item {
 		Optionally, you can add a cooldown to your item's right-click use, similar to Ender Pearls.
 		*/
         if (!world.isClient) {
-            GlowInkBottleEntity glowInkBottleEntity = new GlowInkBottleEntity(CreateMoreAutomation.GLOW_INK_BOTTLE_ENTITY_TYPE, world);
+            GlowInkBottleEntity glowInkBottleEntity = new GlowInkBottleEntity(GlowInkBottleEntityType.GLOW_INK_BOTTLE_ENTITY_TYPE, world);
             glowInkBottleEntity.setItem(itemStack);
             glowInkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
             glowInkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());

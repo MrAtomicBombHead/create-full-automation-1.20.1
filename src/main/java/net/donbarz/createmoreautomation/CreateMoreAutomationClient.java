@@ -1,5 +1,6 @@
 package net.donbarz.createmoreautomation;
 
+import net.donbarz.createmoreautomation.ThrowEntity.GlowInkBottleEntityType;
 import net.donbarz.createmoreautomation.ThrowEntity.InkBottleEntityType;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
@@ -9,10 +10,10 @@ public class CreateMoreAutomationClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         //EntityRendererRegistry.register(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, FlyingItemEntityRenderer::new);
-        EntityRendererRegistry.register(CreateMoreAutomation.INK_BOTTLE_ENTITY_TYPE, (context) ->
+        EntityRendererRegistry.register(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, (context) ->
                 new FlyingItemEntityRenderer(context));
 
-        EntityRendererRegistry.register(CreateMoreAutomation.GLOW_INK_BOTTLE_ENTITY_TYPE, (context) ->
+        EntityRendererRegistry.register(GlowInkBottleEntityType.GLOW_INK_BOTTLE_ENTITY_TYPE, (context) ->
                 new FlyingItemEntityRenderer(context));
     }
 }

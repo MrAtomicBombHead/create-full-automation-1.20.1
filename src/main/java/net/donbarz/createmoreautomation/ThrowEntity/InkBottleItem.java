@@ -36,7 +36,7 @@ public class InkBottleItem extends Item {
 		Optionally, you can add a cooldown to your item's right-click use, similar to Ender Pearls.
 		*/
         if (!world.isClient) {
-            InkBottleEntity inkBottleEntity = new InkBottleEntity(CreateMoreAutomation.INK_BOTTLE_ENTITY_TYPE, world);
+            InkBottleEntity inkBottleEntity = new InkBottleEntity(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, world);
             inkBottleEntity.setItem(itemStack);
             inkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
             inkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());

@@ -22,11 +22,11 @@ public class GlowInkBottleEntity extends ThrownItemEntity {
     }
 
     private GlowInkBottleEntity(World world, LivingEntity owner) {
-        super(CreateMoreAutomation.GLOW_INK_BOTTLE_ENTITY_TYPE, owner, world); // null will be changed later
+        super(GlowInkBottleEntityType.GLOW_INK_BOTTLE_ENTITY_TYPE, owner, world); // null will be changed later
     }
 
     private GlowInkBottleEntity(World world, double x, double y, double z) {
-        super(CreateMoreAutomation.GLOW_INK_BOTTLE_ENTITY_TYPE, x, y, z, world); // null will be changed later
+        super(GlowInkBottleEntityType.GLOW_INK_BOTTLE_ENTITY_TYPE, x, y, z, world); // null will be changed later
     }
 
     @Override

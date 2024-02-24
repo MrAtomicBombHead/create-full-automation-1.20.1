@@ -31,11 +31,11 @@ public class InkBottleEntity extends ThrownItemEntity {
     }
 
     private InkBottleEntity(World world, LivingEntity owner) {
-        super(CreateMoreAutomation.INK_BOTTLE_ENTITY_TYPE, owner, world); // null will be changed later
+        super(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, owner, world); // null will be changed later
     }
 
     private InkBottleEntity(World world, double x, double y, double z) {
-        super(CreateMoreAutomation.INK_BOTTLE_ENTITY_TYPE, x, y, z, world); // null will be changed later
+        super(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, x, y, z, world); // null will be changed later
     }
 
     @Override
