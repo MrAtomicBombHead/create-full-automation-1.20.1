@@ -14,6 +14,9 @@
   ],
   "results": [
     {
+      "item": "minecraft:glass_bottle"
+    },
+    {
       "fluid": "create_enchantment_industry:hyper_experience",
       "amount": 810
     }
