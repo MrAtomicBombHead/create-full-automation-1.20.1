@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "results": [
+    {
+      "item": "createmoreautomation:cosmic_soot"
+    },
+    {
+      "item": "createmoreautomation:cosmic_soot",
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 500
+}
