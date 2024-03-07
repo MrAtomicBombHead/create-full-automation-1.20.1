@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "createmoreautomation:glowinkbottle"
+      "item": "createmoreautomation:glow_ink_bottle"
     },
     {
       "item": "minecraft:lapis_lazuli"
@@ -13,9 +13,6 @@
     }
   ],
   "results": [
-    {
-      "item": "minecraft:glass_bottle"
-    },
     {
       "fluid": "create_enchantment_industry:hyper_experience",
       "amount": 810
