@@ -17,7 +17,7 @@ public class GlowInkBottleEntityType implements ModInitializer {
             new Identifier(CreateMoreAutomation.MOD_ID, "glow_ink_bottle"),
             FabricEntityTypeBuilder.<GlowInkBottleEntity>create(SpawnGroup.MISC, GlowInkBottleEntity::new)
                     .dimensions(EntityDimensions.fixed(0.25F, 0.25F)) // dimensions in Minecraft units of the projectile
-                    .trackRangeBlocks(4).trackedUpdateRate(10) // necessary for all thrown projectiles (as it prevents it from breaking, lol)
+                    //.trackRangeBlocks(4).trackedUpdateRate(10) // necessary for all thrown projectiles (as it prevents it from breaking, lol)
                     .build() // VERY IMPORTANT
     );
     @Override
