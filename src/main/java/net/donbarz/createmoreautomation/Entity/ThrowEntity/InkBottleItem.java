@@ -1,4 +1,4 @@
-package net.donbarz.createmoreautomation.ThrowEntity;
+package net.donbarz.createmoreautomation.Entity.ThrowEntity;
 
 import net.donbarz.createmoreautomation.CreateMoreAutomation;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -18,14 +18,14 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class GlowInkBottleItem extends Item {
+public class InkBottleItem extends Item {
 
-    public static final Item GLOWINKBOTTLE = registerItem("glow_ink_bottle",new GlowInkBottleItem(new Item.Settings().maxCount(16)));
+    public static final Item INKBOTTLE = registerItem("ink_bottle",new InkBottleItem(new Item.Settings().maxCount(16)));
 
     public static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, name), item);
     }
-    public GlowInkBottleItem(Settings settings) {
+    public InkBottleItem(Settings settings) {
         super(settings);
     }
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
@@ -36,12 +36,12 @@ public class GlowInkBottleItem extends Item {
 		Optionally, you can add a cooldown to your item's right-click use, similar to Ender Pearls.
 		*/
         if (!world.isClient) {
-            GlowInkBottleEntity glowInkBottleEntity = new GlowInkBottleEntity(GlowInkBottleEntityType.GLOW_INK_BOTTLE_ENTITY_TYPE, world);
-            glowInkBottleEntity.setItem(itemStack);
-            glowInkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
-            glowInkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());
+            InkBottleEntity inkBottleEntity = new InkBottleEntity(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, world);
+            inkBottleEntity.setItem(itemStack);
+            inkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
+            inkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());
 
-            world.spawnEntity(glowInkBottleEntity); // spawns entity
+            world.spawnEntity(inkBottleEntity); // spawns entity
         }
 
         user.incrementStat(Stats.USED.getOrCreateStat(this));
@@ -53,14 +53,14 @@ public class GlowInkBottleItem extends Item {
     }
 
     private static void addItemstoIngredientsCreativeTab(FabricItemGroupEntries entries){
-        entries.add(GLOWINKBOTTLE);
+        entries.add(INKBOTTLE);
     }
 
     public void onInitialize() {
-        Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, "glow_ink_bottle"), new Item(new FabricItemSettings()));
+        Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, "ink_bottle"), new Item(new FabricItemSettings()));
     }
     public static void registerThrowItem() {
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(GlowInkBottleItem::addItemstoIngredientsCreativeTab);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(InkBottleItem::addItemstoIngredientsCreativeTab);
     }
 }

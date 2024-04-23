@@ -12,7 +12,7 @@ java.lang.RuntimeException: Cannot load class net.minecraft.client.MinecraftClie
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	at net.donbarz.createmoreautomation.ThrowEntity.InkBottleEntity.onCollision(InkBottleEntity.java:86)
+	at net.donbarz.createmoreautomation.Entity.ThrowEntity.InkBottleEntity.onCollision(InkBottleEntity.java:86)
 	at net.minecraft.entity.projectile.thrown.ThrownEntity.tick(ThrownEntity.java:65)
 	at net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:739)
 	at net.minecraft.world.World.tickEntity(World.java:480)
@@ -40,7 +40,7 @@ Stacktrace:
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	at net.donbarz.createmoreautomation.ThrowEntity.InkBottleEntity.onCollision(InkBottleEntity.java:86)
+	at net.donbarz.createmoreautomation.Entity.ThrowEntity.InkBottleEntity.onCollision(InkBottleEntity.java:86)
 	at net.minecraft.entity.projectile.thrown.ThrownEntity.tick(ThrownEntity.java:65)
 	at net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:739)
 	at net.minecraft.world.World.tickEntity(World.java:480)
@@ -50,7 +50,7 @@ Stacktrace:
 
 -- Entity being ticked --
 Details:
-	Entity Type: createmoreautomation:ink_bottle (net.donbarz.createmoreautomation.ThrowEntity.InkBottleEntity)
+	Entity Type: createmoreautomation:ink_bottle (net.donbarz.createmoreautomation.Entity.ThrowEntity.InkBottleEntity)
 	Entity ID: 1
 	Entity Name: entity.createmoreautomation.ink_bottle
 	Entity's Exact location: 6.50, 87.33, -0.50

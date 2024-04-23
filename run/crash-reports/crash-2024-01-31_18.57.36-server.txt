@@ -5,7 +5,7 @@ Time: 2024-01-31 18:57:36
 Description: Exception in server tick loop
 
 java.lang.ExceptionInInitializerError
-	at net.donbarz.createmoreautomation.ThrowEntity.GlowInkBottleItem.use(GlowInkBottleItem.java:39)
+	at net.donbarz.createmoreautomation.Entity.ThrowEntity.GlowInkBottleItem.use(GlowInkBottleItem.java:39)
 	at net.minecraft.item.ItemStack.use(ItemStack.java:429)
 	at net.minecraft.server.network.ServerPlayerInteractionManager.interactItem(ServerPlayerInteractionManager.java:264)
 	at net.minecraft.server.network.ServerPlayNetworkHandler.onPlayerInteractItem(ServerPlayNetworkHandler.java:1075)
@@ -30,7 +30,7 @@ Caused by: java.lang.IllegalStateException: This registry can't create intrusive
 	at net.minecraft.entity.EntityType.<init>(EntityType.java:327)
 	at net.fabricmc.fabric.impl.object.builder.FabricEntityType.<init>(FabricEntityType.java:32)
 	at net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder.build(FabricEntityTypeBuilder.java:277)
-	at net.donbarz.createmoreautomation.ThrowEntity.GlowInkBottleEntityType.<clinit>(GlowInkBottleEntityType.java:21)
+	at net.donbarz.createmoreautomation.Entity.ThrowEntity.GlowInkBottleEntityType.<clinit>(GlowInkBottleEntityType.java:21)
 	... 20 more
 
 
