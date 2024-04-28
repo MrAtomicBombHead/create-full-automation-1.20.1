@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class GlowInkBottleEntityType implements ModInitializer {
 
+    /* CLASS NO LONGER USED
     public static final EntityType<GlowInkBottleEntity> GLOW_INK_BOTTLE_ENTITY_TYPE = Registry.register(
             Registries.ENTITY_TYPE,
             new Identifier(CreateMoreAutomation.MOD_ID, "glow_ink_bottle"),
@@ -20,8 +21,12 @@ public class GlowInkBottleEntityType implements ModInitializer {
                     .trackRangeBlocks(4).trackedUpdateRate(10) // necessary for all thrown projectiles (as it prevents it from breaking, lol)
                     .build() // VERY IMPORTANT
     );
+
+     */
     @Override
     public void onInitialize() {
 
     }
+
+
 }
