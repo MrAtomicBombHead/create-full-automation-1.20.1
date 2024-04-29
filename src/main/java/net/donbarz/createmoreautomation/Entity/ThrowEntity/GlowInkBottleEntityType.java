@@ -28,5 +28,4 @@ public class GlowInkBottleEntityType implements ModInitializer {
 
     }
 
-
 }

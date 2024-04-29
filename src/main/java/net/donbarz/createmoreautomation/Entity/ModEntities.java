@@ -15,4 +15,8 @@ public class ModEntities {
             new Identifier(CreateMoreAutomation.MOD_ID, "glow_ink_bottle"),
             FabricEntityTypeBuilder.<GlowInkBottleEntity>create(SpawnGroup.MISC, GlowInkBottleEntity::new)
             .dimensions(EntityDimensions.fixed(.25f,.25f)).build());
+
+    public static void registerEntities() {
+
+    }
 }

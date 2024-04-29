@@ -1,5 +1,6 @@
 package net.donbarz.createmoreautomation;
 
+import net.donbarz.createmoreautomation.Entity.ModEntities;
 import net.donbarz.createmoreautomation.Entity.ThrowEntity.GlowInkBottleItem;
 import net.donbarz.createmoreautomation.Entity.ThrowEntity.InkBottleItem;
 import net.donbarz.createmoreautomation.item.ModItems;
@@ -15,6 +16,7 @@ public class CreateMoreAutomation implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModEntities.registerEntities();
 		ModItems.registerModItems();
 		InkBottleItem.registerThrowItem();
 		GlowInkBottleItem.registerThrowItem();
