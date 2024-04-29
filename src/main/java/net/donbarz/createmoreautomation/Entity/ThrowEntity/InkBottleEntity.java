@@ -1,5 +1,6 @@
 package net.donbarz.createmoreautomation.Entity.ThrowEntity;
 
+import net.donbarz.createmoreautomation.Entity.ModEntities;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -19,11 +20,11 @@ public class InkBottleEntity extends ThrownItemEntity {
     }
 
     private InkBottleEntity(World world, LivingEntity owner) {
-        super(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, owner, world); // null will be changed later
+        super(ModEntities.INK_BOTTLE_ENTITY, owner, world); // null will be changed later
     }
 
     private InkBottleEntity(World world, double x, double y, double z) {
-        super(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, x, y, z, world); // null will be changed later
+        super(ModEntities.INK_BOTTLE_ENTITY, x, y, z, world); // null will be changed later
     }
 
     @Override

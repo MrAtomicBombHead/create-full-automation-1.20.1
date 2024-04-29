@@ -61,7 +61,7 @@ public class GlowInkBottleItem extends Item {
         Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, "glow_ink_bottle"), new Item(new FabricItemSettings()));
     }
     public static void registerThrowItem() {
-
+        CreateMoreAutomation.LOGGER.info("Registering glow_ink_bottle from " + CreateMoreAutomation.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(GlowInkBottleItem::addItemstoIngredientsCreativeTab);
     }
 }

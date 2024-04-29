@@ -1,6 +1,7 @@
 package net.donbarz.createmoreautomation.Entity.ThrowEntity;
 
 import net.donbarz.createmoreautomation.CreateMoreAutomation;
+import net.donbarz.createmoreautomation.Entity.ModEntities;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -36,7 +37,7 @@ public class InkBottleItem extends Item {
 		Optionally, you can add a cooldown to your item's right-click use, similar to Ender Pearls.
 		*/
         if (!world.isClient) {
-            InkBottleEntity inkBottleEntity = new InkBottleEntity(InkBottleEntityType.INK_BOTTLE_ENTITY_TYPE, world);
+            InkBottleEntity inkBottleEntity = new InkBottleEntity(ModEntities.INK_BOTTLE_ENTITY, world);
             inkBottleEntity.setItem(itemStack);
             inkBottleEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F + user.getMovementSpeed(), 0F);
             inkBottleEntity.setPos(user.getX(),user.getY() + 1.75f ,user.getZ());
@@ -60,7 +61,7 @@ public class InkBottleItem extends Item {
         Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, "ink_bottle"), new Item(new FabricItemSettings()));
     }
     public static void registerThrowItem() {
-
+        CreateMoreAutomation.LOGGER.info("Registering ink_bottle from " + CreateMoreAutomation.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(InkBottleItem::addItemstoIngredientsCreativeTab);
     }
 }
