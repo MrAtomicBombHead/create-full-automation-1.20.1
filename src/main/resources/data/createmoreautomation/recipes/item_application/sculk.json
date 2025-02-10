@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "createmoreautomation:sculk_replaceable"
+    },
+    {
+      "item": "createmoreautomation:void_goo"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sculk"
+    }
+  ]
+}
