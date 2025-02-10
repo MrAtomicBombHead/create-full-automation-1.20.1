@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "createmoreautomation:cosmic_soot"
+    },
+    {
+      "item": "create:experience_nugget"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sculk"
+    }
+  ]
+}

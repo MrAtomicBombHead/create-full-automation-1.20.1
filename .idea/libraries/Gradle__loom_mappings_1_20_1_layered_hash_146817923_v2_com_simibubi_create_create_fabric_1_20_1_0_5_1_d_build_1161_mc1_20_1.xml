@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: loom_mappings_1_20_1_layered_hash_146817923_v2.com.simibubi.create:create-fabric-1.20.1:0.5.1-d-build.1161+mc1.20.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="loom_mappings_1_20_1_layered_hash_146817923_v2.com.simibubi.create" artifactId="create-fabric-1.20.1" version="0.5.1-d-build.1161+mc1.20.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_146817923_v2/com/simibubi/create/create-fabric-1.20.1/0.5.1-d-build.1161+mc1.20.1/create-fabric-1.20.1-0.5.1-d-build.1161+mc1.20.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_146817923_v2/com/simibubi/create/create-fabric-1.20.1/0.5.1-d-build.1161+mc1.20.1/create-fabric-1.20.1-0.5.1-d-build.1161+mc1.20.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

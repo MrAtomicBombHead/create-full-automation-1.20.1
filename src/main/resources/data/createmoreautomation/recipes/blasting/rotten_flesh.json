@@ -1,0 +1,14 @@
+{
+  "type": "create:blasting",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:leather",
+      "chance": 0.2
+    }
+  ]
+}

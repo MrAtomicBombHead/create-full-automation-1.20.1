@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: loom_mappings_1_20_1_layered_hash_146817923_v2.com.github.llamalad7.mixinextras:mixinextras-fabric:0.2.0-beta.8" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="loom_mappings_1_20_1_layered_hash_146817923_v2.com.github.llamalad7.mixinextras" artifactId="mixinextras-fabric" version="0.2.0-beta.8" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_146817923_v2/com/github/llamalad7/mixinextras/mixinextras-fabric/0.2.0-beta.8/mixinextras-fabric-0.2.0-beta.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_146817923_v2/com/github/llamalad7/mixinextras/mixinextras-fabric/0.2.0-beta.8/mixinextras-fabric-0.2.0-beta.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createmoreautomation:glow_ink_bottle"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "amount": 810
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: loom_mappings_1_20_1_layered_hash_146817923_v2.curse.maven:forge-config-api-port-fabric-547434:4583000" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="loom_mappings_1_20_1_layered_hash_146817923_v2.curse.maven" artifactId="forge-config-api-port-fabric-547434" version="4583000" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_146817923_v2/curse/maven/forge-config-api-port-fabric-547434/4583000/forge-config-api-port-fabric-547434-4583000.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

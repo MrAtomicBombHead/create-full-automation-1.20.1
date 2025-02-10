@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "tag": "createmoreautomation:plants"
+    },
+    {
+      "amount": 8100,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ]
+}

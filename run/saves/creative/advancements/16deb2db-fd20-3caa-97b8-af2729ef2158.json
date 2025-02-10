@@ -1,0 +1,93 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2024-02-03 00:37:01 +0100"
+    },
+    "done": true
+  },
+  "create:chained_drain": {
+    "criteria": {
+      "0": "2024-02-03 00:38:24 +0100"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2024-02-03 00:39:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-02-03 00:36:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-02-03 00:38:10 +0100"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2024-02-03 00:38:28 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2024-02-03 00:37:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-02-03 00:37:11 +0100"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2024-02-03 00:39:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-02-03 00:38:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-02-03 00:37:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-02-03 00:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-02-03 00:38:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-02-03 00:36:37 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-02-03 00:38:36 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

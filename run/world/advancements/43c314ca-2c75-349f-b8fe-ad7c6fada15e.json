@@ -1,0 +1,21 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2025-02-10 18:04:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-10 18:04:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-02-10 18:04:18 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
