@@ -9,7 +9,7 @@
   "results": [
     {
       "item": "minecraft:iron_nugget",
-      "amount": 9
+      "count": 9
     },
     {
       "item": "createmoreautomation:sulfur",

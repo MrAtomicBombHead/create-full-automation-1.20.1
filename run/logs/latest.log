@@ -1,5 +1,5 @@
-[14:55:35] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[14:55:36] [main/INFO] (FabricLoader) Loading 90 mods:
+[15:20:59] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[15:21:00] [main/INFO] (FabricLoader) Loading 90 mods:
 	- create 0.5.1-d-build.1161+mc1.20.1
 	- createmoreautomation 1.1.5-1.20.1
 	- dripstone_fluid_lib 3.0.2
@@ -90,18 +90,17 @@
 	- porting_lib_utility 2.1.1127+1.20
 	- reach-entity-attributes 2.4.0
 	- registrate-fabric 1.3.62-MC1.20.1
-[14:55:37] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/PaulA/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[14:55:37] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[14:55:37] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[14:55:37] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[14:55:39] [main/WARN] (FabricLoader/Mixin) Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
-[14:55:39] [main/WARN] (FabricLoader/Mixin) @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
-[14:55:39] [main/WARN] (FabricLoader/Mixin) Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder)
-[14:55:39] [main/WARN] (FabricLoader/Mixin) @Mixin target me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin from mod flywheel
-[14:55:40] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[14:55:53] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 349 milliseconds
-[14:55:59] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:56:00] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[15:21:01] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/PaulA/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[15:21:01] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:21:01] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:21:03] [main/WARN] (FabricLoader/Mixin) Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[15:21:03] [main/WARN] (FabricLoader/Mixin) @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[15:21:03] [main/WARN] (FabricLoader/Mixin) Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder)
+[15:21:03] [main/WARN] (FabricLoader/Mixin) @Mixin target me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin from mod flywheel
+[15:21:04] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[15:21:20] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 377 milliseconds
+[15:21:27] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:21:28] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
@@ -119,63 +118,77 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
 	... 9 more
-[14:56:00] [Render thread/INFO] (Minecraft) Setting user: Player795
-[14:56:07] [Render thread/INFO] (createmoreautomation) Registering entities for createmoreautomation
-[14:56:07] [Render thread/INFO] (createmoreautomation) Registering Items for createmoreautomation
-[14:56:07] [Render thread/INFO] (createmoreautomation) Registering ink_bottle from createmoreautomation
-[14:56:07] [Render thread/INFO] (createmoreautomation) Registering glow_ink_bottle from createmoreautomation
-[14:56:08] [Render thread/INFO] (MM) Definitely not up to no good
-[14:56:09] [Render thread/INFO] (Backend) No shaders mod detected.
-[14:56:09] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[14:56:10] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[14:56:12] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-data-generation-api-v1, fabricloader, fabric-command-api-v1, porting_lib_data, fabric-loot-tables-v1, fabric-resource-loader-v0, fabric-transfer-api-v1, porting_lib_tool_actions, create, fabric-api-lookup-api-v1, porting_lib_accessors, fabric-rendering-v1, fabric-keybindings-v0, fabric-resource-conditions-api-v1, porting_lib_tags, fabric-key-binding-api-v1, fabric-gametest-api-v1, flywheel, fabric-events-lifecycle-v0, fabric-renderer-api-v1, fabric-registry-sync-v0, porting_lib_model_generators, porting_lib_brewing, fabric-command-api-v2, fabric-rendering-v0, fabric-particles-v1, milk, porting_lib_model_materials, fabric-sound-api-v1, porting_lib_transfer, fabric-recipe-api-v1, fabric-commands-v0, porting_lib_mixin_extensions, porting_lib_common, fabric-convention-tags-v1, fabric-networking-api-v1, fabric-client-tags-api-v1, fabric-api-base, dripstone_fluid_lib, reach-entity-attributes, fabric-block-view-api-v2, fabric-api, porting_lib_fake_players, fabric-item-api-v1, fabric-dimensions-v1, fabric-mining-level-api-v1, porting_lib_attributes, fabric-game-rule-api-v1, fabric-loot-api-v2, porting_lib_client_events, fabric-item-group-api-v1, porting_lib_entity, fabric-entity-events-v1, porting_lib_utility, registrate-fabric, porting_lib_networking, forgeconfigapiport, fabric-object-builder-api-v1, fabric-model-loading-api-v1, fabric-renderer-registries-v1, fabric-models-v0, fabric-message-api-v1, porting_lib_obj_loader, fabric-renderer-indigo, createmoreautomation, fabric-biome-api-v1, fabric-block-api-v1, porting_lib_extensions, fabric-screen-handler-api-v1, porting_lib_model_loader, fabric-rendering-data-attachment-v1, fabric-screen-api-v1, fabric-rendering-fluids-v1, fabric-lifecycle-events-v1, porting_lib_base, fabric-containers-v0, fabric-content-registries-v0, porting_lib_gametest, porting_lib_models, fabric-networking-v0, fabric-events-interaction-v0, fabric-transitive-access-wideners-v1, porting_lib_lazy_registration, fabric-crash-report-info-v1, porting_lib_core, fabric-blockrenderlayer-v1, mm)
-[14:56:13] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:56:13] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[14:56:19] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:56:19] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:56:19] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Lautsprecher (Realtek(R) Audio)
-[14:56:19] [Render thread/INFO] (Minecraft) Sound engine started
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:56:19] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:56:20] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:56:20] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:56:20] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:56:20] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:56:20] [Render thread/INFO] (Backend) Loaded all shader sources.
-[14:56:26] [Worker-Main-1/ERROR] (Minecraft) Couldn't load tag createmoreautomation:sulfur as it is missing following references: byg:sulfur_ore (from fabric)
-[14:56:27] [Render thread/WARN] (Create) Your custom create:pressing recipe (createmoreautomation:pressing/pressing_amethyst) has more item outputs (4) than supported (2).
-[14:56:27] [Render thread/INFO] (Minecraft) Loaded 22 recipes
-[14:56:28] [Render thread/INFO] (Minecraft) Loaded 2260 advancements
-[14:56:30] [Render thread/INFO] (BiomeModificationImpl) Applied 7 biome modifications to 6 of 64 new biomes in 26.46 ms
-[14:56:30] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
-[14:56:30] [Server thread/INFO] (Minecraft) Generating keypair
-[14:56:31] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:35] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:56:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 20%
-[14:56:36] [Render thread/INFO] (Minecraft) Preparing spawn area: 91%
-[14:56:36] [Render thread/INFO] (Minecraft) Time elapsed: 5071 ms
-[14:56:36] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[14:56:36] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[14:56:38] [Server thread/INFO] (Minecraft) Player795[local:E:2a9cf9de] logged in with entity id 21 at (11.332535641713017, -60.0, 26.97330083604477)
-[14:56:38] [Server thread/INFO] (Minecraft) Player795 joined the game
-[14:56:39] [Render thread/INFO] (BatchExecutor) Started 6 worker threads
-[14:56:40] [Render thread/INFO] (Minecraft) Loaded 13 advancements
-[14:56:45] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:56:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:overworld
-[14:56:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_end
-[14:56:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_nether
+[15:21:28] [Render thread/INFO] (Minecraft) Setting user: Player773
+[15:21:28] [Render thread/INFO] (MM) Definitely not up to no good
+[15:21:28] [Render thread/INFO] (createmoreautomation) Registering entities for createmoreautomation
+[15:21:28] [Render thread/INFO] (createmoreautomation) Registering Items for createmoreautomation
+[15:21:28] [Render thread/INFO] (createmoreautomation) Registering ink_bottle from createmoreautomation
+[15:21:28] [Render thread/INFO] (createmoreautomation) Registering glow_ink_bottle from createmoreautomation
+[15:21:37] [Render thread/INFO] (Backend) No shaders mod detected.
+[15:21:39] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:21:39] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[15:21:42] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-renderer-registries-v1, porting_lib_mixin_extensions, fabric-convention-tags-v1, porting_lib_extensions, porting_lib_data, fabric-api, forgeconfigapiport, mm, fabric-recipe-api-v1, fabric-command-api-v2, fabric-resource-loader-v0, porting_lib_utility, porting_lib_obj_loader, fabric-api-base, fabric-content-registries-v0, fabric-transitive-access-wideners-v1, fabric-mining-level-api-v1, fabric-rendering-fluids-v1, fabric-containers-v0, fabric-gametest-api-v1, porting_lib_accessors, fabric-sound-api-v1, fabric-screen-api-v1, fabric-biome-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-events-lifecycle-v0, fabric-keybindings-v0, fabric-resource-conditions-api-v1, fabric-loot-api-v2, flywheel, porting_lib_fake_players, milk, fabric-blockrenderlayer-v1, fabric-screen-handler-api-v1, createmoreautomation, fabric-particles-v1, fabric-rendering-v0, porting_lib_networking, fabric-loot-tables-v1, reach-entity-attributes, porting_lib_attributes, fabric-message-api-v1, fabric-item-group-api-v1, create, fabric-transfer-api-v1, fabric-api-lookup-api-v1, fabric-block-view-api-v2, fabric-crash-report-info-v1, porting_lib_lazy_registration, fabric-entity-events-v1, fabric-block-api-v1, fabric-commands-v0, porting_lib_core, fabric-key-binding-api-v1, fabric-command-api-v1, porting_lib_brewing, porting_lib_entity, fabric-events-interaction-v0, registrate-fabric, porting_lib_model_materials, fabric-networking-api-v1, fabricloader, porting_lib_model_loader, fabric-dimensions-v1, fabric-lifecycle-events-v1, fabric-models-v0, porting_lib_common, porting_lib_gametest, porting_lib_models, porting_lib_model_generators, porting_lib_client_events, fabric-client-tags-api-v1, porting_lib_transfer, fabric-model-loading-api-v1, fabric-data-generation-api-v1, porting_lib_tool_actions, fabric-game-rule-api-v1, porting_lib_tags, porting_lib_base, fabric-rendering-v1, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-item-api-v1, fabric-networking-v0, dripstone_fluid_lib, fabric-rendering-data-attachment-v1)
+[15:21:43] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[15:21:43] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[15:21:48] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[15:21:48] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[15:21:48] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Lautsprecher (Realtek(R) Audio)
+[15:21:48] [Render thread/INFO] (Minecraft) Sound engine started
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:21:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:21:50] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[15:21:50] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:21:50] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:21:50] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:21:50] [Render thread/INFO] (Backend) Loaded all shader sources.
+[15:21:59] [Worker-Main-11/ERROR] (Minecraft) Couldn't load tag createmoreautomation:sulfur as it is missing following references: byg:sulfur_ore (from fabric)
+[15:21:59] [Render thread/WARN] (Create) Your custom create:pressing recipe (createmoreautomation:pressing/pressing_amethyst) has more item outputs (4) than supported (2).
+[15:21:59] [Render thread/INFO] (Minecraft) Loaded 22 recipes
+[15:22:00] [Render thread/INFO] (Minecraft) Loaded 2260 advancements
+[15:22:02] [Render thread/INFO] (BiomeModificationImpl) Applied 7 biome modifications to 6 of 64 new biomes in 26.55 ms
+[15:22:02] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[15:22:02] [Server thread/INFO] (Minecraft) Generating keypair
+[15:22:03] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:06] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:22:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 20%
+[15:22:08] [Render thread/INFO] (Minecraft) Preparing spawn area: 63%
+[15:22:08] [Render thread/INFO] (Minecraft) Time elapsed: 4872 ms
+[15:22:08] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[15:22:08] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[15:22:10] [Server thread/INFO] (Minecraft) Player773[local:E:134aaf98] logged in with entity id 20 at (11.332535641713017, -60.0, 26.97330083604477)
+[15:22:11] [Server thread/INFO] (Minecraft) Player773 joined the game
+[15:22:11] [Render thread/INFO] (BatchExecutor) Started 6 worker threads
+[15:22:12] [Render thread/INFO] (Minecraft) Loaded 13 advancements
+[15:22:35] [Render thread/INFO] (Minecraft) Loaded 19 advancements
+[15:22:57] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:22:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:overworld
+[15:22:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_nether
+[15:22:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_end
+[15:22:57] [Server thread/INFO] (Minecraft) Player773 lost connection: Disconnected
+[15:22:57] [Server thread/INFO] (Minecraft) Player773 left the game
+[15:22:57] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[15:22:58] [Server thread/INFO] (Minecraft) Stopping server
+[15:22:58] [Server thread/INFO] (Minecraft) Saving players
+[15:22:58] [Server thread/INFO] (Minecraft) Saving worlds
+[15:22:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:overworld
+[15:22:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_nether
+[15:22:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[creative]'/minecraft:the_end
+[15:22:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (creative): All chunks are saved
+[15:22:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:22:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:22:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[15:23:20] [Render thread/INFO] (Minecraft) Stopping!

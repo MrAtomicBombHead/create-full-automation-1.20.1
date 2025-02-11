@@ -19,11 +19,11 @@
         "chance": 0.05
     },
     {
-      "item": "minecraft:bonemeal"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:bonemeal",
-      "chance": 0.5
+      "item": "minecraft:bone_meal",
+      "chance": 0.33
     }
   ]
 }
