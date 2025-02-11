@@ -1,0 +1,26 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:amethyst_shard",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "chance": 0.25
+    }
+  ]
+}

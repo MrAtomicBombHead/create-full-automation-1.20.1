@@ -13,16 +13,19 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     //public static final Item exampleItem = registerItem("example", new Item(new FabricItemSettings()));
+    public static final Item SALPETRE = registerItem("salpetre", new Item(new FabricItemSettings()));
     public static final Item COSMICSOOT = registerItem("cosmic_soot", new Item(new FabricItemSettings()));
+    public static final Item SULFUR = registerItem("sulfur", new Item(new FabricItemSettings()));
     //public static final Item VOIDGOO = registerItem("void_goo", new Item(new FabricItemSettings()));
     private static void addItemstoIngredientsCreativeTab(FabricItemGroupEntries entries){
         //entries.add(exampleItem);
         entries.add(COSMICSOOT);
+        entries.add(SALPETRE);
+        entries.add(SULFUR);
         //entries.add(VOIDGOO);
     }
 
     public static Item registerItem(String name, Item item){
-
         return Registry.register(Registries.ITEM, new Identifier(CreateMoreAutomation.MOD_ID, name), item);
     }
     public static void registerModItems(){

@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "createmoreautomation:sulfur"
+    },
+    {
+      "item": "createmoreautomation:salpetre"
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gunpowder",
+      "amount": 3
+    }
+  ]
+}

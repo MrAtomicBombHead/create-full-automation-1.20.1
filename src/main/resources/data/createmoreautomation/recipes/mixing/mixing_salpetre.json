@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "createmoreautomation:organics"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "fluid": "minecraft:water",
+        "amount": 8100
+    }
+  ],
+  "results": [
+    {
+        "item": "createmoreautomation:salpetre",
+        "chance": 0.05
+    },
+    {
+      "item": "minecraft:bonemeal"
+    },
+    {
+      "item": "minecraft:bonemeal",
+      "chance": 0.5
+    }
+  ]
+}

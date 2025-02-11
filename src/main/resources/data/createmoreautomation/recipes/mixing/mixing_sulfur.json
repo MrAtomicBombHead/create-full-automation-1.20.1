@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create:crushed_raw_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+      "amount": 9
+    },
+    {
+      "item": "createmoreautomation:sulfur",
+      "chance": 0.1
+    }
+  ]
+}

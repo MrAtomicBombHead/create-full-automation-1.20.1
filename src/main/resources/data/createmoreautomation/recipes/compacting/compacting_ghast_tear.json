@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createmoreautomation:salpetre"
+    },
+    {
+      "amount": 20250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ]
+}

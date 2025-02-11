@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#createmoreautomation:plants",
+    "minecraft:rotten_flesh",
+    "minecraft:spider_eye",
+    "minecraft:chicken",
+    "minecraft:beef",
+    "minecraft:porkchop",
+    "minecraft:mutton",
+    "minecraft:rabbit",
+    "minecraft:poisonous_potato",
+    "minecraft:fermented_spider_eye"
+  ]
+}
