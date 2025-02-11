@@ -8,7 +8,9 @@
       "item": "createmoreautomation:cosmic_soot"
     },
     {
-      "item": "create:experience_nugget"
+      "amount": 243,
+      "fluid": "create_enchantment_industry:experience",
+      "nbt": {}
     }
   ],
   "results": [

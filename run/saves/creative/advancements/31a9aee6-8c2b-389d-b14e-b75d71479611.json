@@ -1,0 +1,33 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2025-02-11 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-11 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2025-02-11 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-02-11 12:14:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-02-11 12:14:47 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

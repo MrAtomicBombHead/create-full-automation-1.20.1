@@ -1,14 +1,10 @@
 {
-  "type": "create:blasting",
-  "ingredients": [
-    {
-      "item": "minecraft:rotten_flesh"
-    }
-  ],
-  "results": [
-    {
-      "item": "minecraft:leather",
-      "chance": 0.2
-    }
-  ]
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 20,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": "minecraft:leather"
 }
