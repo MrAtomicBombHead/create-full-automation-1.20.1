@@ -21,13 +21,16 @@
 	#Range: > 0
 	maximumContraptionLightVolume = 16384
 	#.
+	#Disable to prevent being rotated while seated on a Moving Contraption
+	rotateWhenSeated = true
+	#.
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = false
 	#.
 	#The fluid unit that will be displayed when viewing fluids
 	#Example: 1000 mB or 81000 Droplets
-	#Allowed Values: DROPLETS, MILLIBUCKETS
-	fluidUnitType = "MILLIBUCKETS"
+	#Allowed Values: DROPLETS, MILIBUCKETS
+	fluidUnitType = "MILIBUCKETS"
 	#.
 	#[in Blocks]
 	#Maximum Distance to the player at which items in Blocks' filter slots will be displayed

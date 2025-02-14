@@ -3,5 +3,7 @@
   "item.createmoreautomation.salpetre": "Salpeter",
   "item.createmoreautomation.sulfur": "Schwefel",
   "item.createmoreautomation.ink_bottle": "Tintenflasche",
-  "item.createmoreautomation.glow_ink_bottle": "Leuchttintenflasche"
+  "item.createmoreautomation.glow_ink_bottle": "Leuchttintenflasche",
+  "entity.createmoreautomation.ink_bottle": "Tintenflasche",
+  "entity.createmoreautomation.glow_ink_bottle": "Leuchttintenflasche"
 }

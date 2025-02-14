@@ -3,5 +3,7 @@
   "item.createmoreautomation.salpetre": "Salpetre",
   "item.createmoreautomation.sulfur": "Sulfur",
   "item.createmoreautomation.ink_bottle": "Bottle of Ink",
-  "item.createmoreautomation.glow_ink_bottle": "Bottle of Glow Ink"
+  "item.createmoreautomation.glow_ink_bottle": "Bottle of Glow Ink",
+  "entity.createmoreautomation.ink_bottle": "Ink Bottle",
+  "entity.createmoreautomation.glow_ink_bottle": "Glow Ink Bottle"
 }

@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.5-SNAPSHOT'
+	id 'fabric-loom' version '1.9-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -16,41 +16,17 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
-
-
-	maven { url = "https://maven.shedaniel.me/" } // Cloth Config, REI
-	maven { url = "https://api.modrinth.com/maven" } // LazyDFU
-	maven { url = "https://maven.terraformersmc.com/releases/" } // Mod Menu
-	maven { url = "https://mvn.devos.one/snapshots/" } // Create, Porting Lib, Forge Tags, Milk Lib, Registrate
-	maven { url = "https://cursemaven.com" } // Forge Config API Port
-	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
-	maven { url = "https://jitpack.io/" } // Mixin Extras, Fabric ASM
-	maven { url = "https://maven.tterrag.com/" } // Flywheel
-}
-
-fabricApi {
-	configureDataGeneration()
 }
 
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings(loom.layered {
-		it.mappings("net.fabricmc:yarn:${project.yarn_mappings}:v2")
-		it.mappings file("mappings/create-conflict-fix.tiny")
-	})
-
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	//Fabric API. This is technically optional, but you probably want it anyway.
+	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-	modImplementation "com.simibubi.create:create-fabric-${minecraft_version}:${create_version}"
-
-	// Uncomment the following line to enable the deprecated Fabric API modules. 
-	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
-
-	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+	
 }
 
 processResources {
@@ -84,7 +60,8 @@ jar {
 // configure the maven publication
 publishing {
 	publications {
-		mavenJava(MavenPublication) {
+		create("mavenJava", MavenPublication) {
+			artifactId = project.archives_base_name
 			from components.java
 		}
 	}
